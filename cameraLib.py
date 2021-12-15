@@ -50,7 +50,7 @@ class CameraPredict:
 		if(input_data is None):
 			input_data = self.image
 
-		# Load the TFLite model and allocate tensors.
+		# Load the TFLite model and allocate tensors
 		interpreter = tf.lite.Interpreter(model_path="model.tflite")
 		interpreter.allocate_tensors()
 

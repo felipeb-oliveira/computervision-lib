@@ -1,5 +1,4 @@
 from cameraLib import CameraPredict
-import cv2 as cv
 
 def main():
 	# Get instance by custom constructor
